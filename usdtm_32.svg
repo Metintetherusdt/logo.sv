@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="USDTm styled icon">
-  <!-- background circle -->
   <rect width="32" height="32" rx="4" fill="#14284A"/>
-  <!-- segmented ring (approximation) -->
-  <g transform="translate(16,16)">
-    <path d="M0,-10 A10,10 0 0,1 6.83,-7.5" stroke="#7FA7FF" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-    <path d="M6.83,-7.5 A10,10 0 0,1 9.95,-2.84" stroke="#DDE6FF" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-    <path d="M9.95,-2.84 A10,10 0 0,1 9.95,2.84" stroke="#7FA7FF" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-    <path d="M9.95,2.84 A10,10 0 0,1 6.83,7.5" stroke="#DDE6FF" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-    <path d="M6.83,7.5 A10,10 0 0,1 0,10" stroke="#7FA7FF" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-    <path d="M0,10 A10,10 0 0,1 -6.83,7.5" stroke="#DDE6FF" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-    <path d="M-6.83,7.5 A10,10 0 0,1 -9.95,2.84" stroke="#7FA7FF" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-    <path d="M-9.95,2.84 A10,10 0 0,1 -9.95,-2.84" stroke="#DDE6FF" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-    <path d="M-9.95,-2.84 A10,10 0 0,1 -6.83,-7.5" stroke="#7FA7FF" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-    <path d="M-6.83,-7.5 A10,10 0 0,1 0,-10" stroke="#DDE6FF" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-  </g>
-
-  <!-- stylized M (simplified) -->
-  <g transform="translate(8,8) scale(0.9)">
-    <path d="M8,6 L10.5,6 L12,9 L13.5,6 L16,6 L16,14 L13.5,14 L12,11 L10.5,14 L8,14 Z" fill="white"/>
-    <!-- small rectangle under M -->
-    <rect x="11.2" y="13" width="1.6" height="1.6" fill="#cfd9ff"/>
-    <!-- sparkle above -->
-    <polygon points="12,3 12.8,4.6 14.6,5.1 12.8,5.6 12,7.2 11.2,5.6 9.4,5.1 11.2,4.6" fill="#EAF1FF" opacity="0.9"/>
+  <g transform="translate(16,12) scale(1)">
+    <!-- outer segmented ring -->
+    <g transform="translate(0,0)">
+      <path d="M0,-8 A8,8 0 0,1 5.46,-6.0" stroke="#7FA7FF" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <path d="M5.46,-6.0 A8,8 0 0,1 7.96,-2.27" stroke="#DDE6FF" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <path d="M7.96,-2.27 A8,8 0 0,1 7.96,2.27" stroke="#7FA7FF" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <path d="M7.96,2.27 A8,8 0 0,1 5.46,6.0" stroke="#DDE6FF" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <path d="M5.46,6.0 A8,8 0 0,1 0,8" stroke="#7FA7FF" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <path d="M0,8 A8,8 0 0,1 -5.46,6.0" stroke="#DDE6FF" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <path d="M-5.46,6.0 A8,8 0 0,1 -7.96,2.27" stroke="#7FA7FF" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <path d="M-7.96,2.27 A8,8 0 0,1 -7.96,-2.27" stroke="#DDE6FF" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <path d="M-7.96,-2.27 A8,8 0 0,1 -5.46,-6.0" stroke="#7FA7FF" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <path d="M-5.46,-6.0 A8,8 0 0,1 0,-8" stroke="#DDE6FF" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    </g>
+    <!-- simplified M -->
+    <g transform="translate(-4,0) scale(0.9)">
+      <path d="M4,3 L6,3 L8,7 L10,3 L12,3 L12,13 L10,13 L8,9.5 L6,13 L4,13 Z" fill="#ffffff"/>
+      <rect x="7.8" y="11.2" width="1.6" height="1.6" fill="#cfd9ff"/>
+    </g>
+    <!-- sparkle -->
+    <polygon points="0,-9 0.6,-7.8 1.8,-7.4 0.6,-7 0,-5.8 -0.6,-7 -1.8,-7.4 -0.6,-7.8" fill="#EAF1FF" opacity="0.9"/>
   </g>
 </svg>
